@@ -1,0 +1,43 @@
+{
+   "Groups": [
+      {
+         "Name": "Main",
+         "DisplayName": "Options",
+         "Elements": [
+            {
+               "Name": "IncludeDir1",
+               "DisplayName": "Unleashed Physics",
+               "Description": [
+                  "Enable Unleashed Physics, which drastically changes Sonic's physics such as longer homing attack, air boost and air dash.",
+               ],
+               "Type": "PhysicsEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "Core_phy"
+            },
+
+         ]
+      }
+   ],
+   
+   "Enums": {
+
+      "PhysicsEnum": [
+         {
+            "DisplayName": "Enable",
+            "Value": "Core_phy",
+            "Description": [
+               "Enable Unleashed Physics",
+            ]
+         },
+         {
+            "DisplayName": "Disable",
+            "Value": "Core_dummy",
+            "Description": [
+               "Disable Unleashed Physics, default Generations physics will be used in all stages",
+            ]
+         },
+      ],
+   },
+   "IniFile": "mod.ini"
+}
